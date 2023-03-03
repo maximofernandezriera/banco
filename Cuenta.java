@@ -30,7 +30,7 @@ public abstract class Cuenta {
      * Método abstracto que debe ser redefinido en las clases derivadas
      */
     public abstract void pagarIntereses ();
-	
+    
     /** 
      * Método que devuelve el saldo de la cuenta
      * @return saldo
