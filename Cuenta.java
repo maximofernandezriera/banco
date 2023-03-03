@@ -30,5 +30,21 @@ public abstract class Cuenta {
      * Método abstracto que debe ser redefinido en las clases derivadas
      */
     public abstract void pagarIntereses ();
+	
+    /** 
+     * Método que devuelve el saldo de la cuenta
+     * @return saldo
+     */
+    public double getSaldo() {
+        return saldo;
+    }
+
+    /**
+     * Método que inicializa el saldo de la cuenta
+     * @param saldo Saldo de la cuenta
+     */
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    } 
 
 }
