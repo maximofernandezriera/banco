@@ -1,2 +1,2 @@
-# banco
+# Ejercicio Banco
 Ejercicio de poo con Java.
